@@ -1,0 +1,3 @@
+class Duck:
+  duck = duck
+  
