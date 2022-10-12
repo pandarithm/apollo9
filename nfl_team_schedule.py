@@ -16,7 +16,7 @@ url_dict = {'Bills': 'buf/buffalo-bills', 'Dolphins': 'mia/miami-dolphins', 'Pat
             'Seahawks': 'sea/seattle-seahawks'}
 
 url = 'https://www.espn.com/nfl/team/schedule/_/name/'
-team = input("Which team's schedule do you want to see? ").title()
+team = input("Pick a team to see their schedule. ").title()
 team_url = url + url_dict[team]
 
 res = requests.get(team_url)
